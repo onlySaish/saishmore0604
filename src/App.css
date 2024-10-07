@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f5f7;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid #141E30;
+  background-color: #141E30;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #243B55;
+  border-color: #243B55;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Form Styling */
+form h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form input {
+  background-color: #eee;
+  border: 1px solid #DDDDDD;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 130%;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 20px;
+  background-color: #243B55;
+  color: white;
+  font-size: 14px;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+form {
+  /* background-color: #FFFFFF; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.form-container {
+  width: 50%;
+  padding: 50px;
+}
+
+/* Right side background restored */
+.sign-up-container {
+  background-color: #141E30;
+  color: white;
+}
+
+.sign-up-container h1, 
+.sign-up-container input,
+.sign-up-container button {
+  color: white;
+}
+
+.sign-up-container input {
+  background-color: #243B55;
+  border: none;
+}
+
+.sign-up-container button {
+  background-color: white;
+  color: #243B55;
+  border: 1px solid white;
+}
+
+.sign-up-container button:hover {
+  background-color: #f6f5f7;
+  color: #141E30;
+}
+
+#create {
+  background-color: #141E30;
+}
